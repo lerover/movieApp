@@ -27,4 +27,7 @@ listEl.addEventListener('submit', function (event) {
     newEl.appendChild(btnEl)
 
     btnEl.innerHTML = '<i class="fa-solid fa-trash" style="font-size: 1.6rem;"></i>'
+
+    list.value=''
+    
 })
