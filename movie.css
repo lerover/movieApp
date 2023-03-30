@@ -1,0 +1,102 @@
+body{
+    background-color:rgba(128, 0, 128, 0.58);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+
+.header{
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    font-size: 3rem;
+    color: white;
+
+
+}
+
+.btn_list_container{
+    width: 100%;
+    height: 20vh;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    width: 30%;
+    height: 48px;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    font-size: 1.5rem;
+}
+
+.list{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.btn{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.btn{
+    width: 10%;
+    height: 50px;
+    background-color: white;
+    outline: none;
+    border: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.save{
+    font-size: 30px;
+}
+
+
+.movie_name{
+    width: 30%;
+    height: 48px;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    font-size: 1.5rem;
+    list-style: none;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trash_button{
+    height: 48px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.trash_button:hover{
+    background-color: gray;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
