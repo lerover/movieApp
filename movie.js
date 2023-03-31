@@ -28,6 +28,11 @@ listEl.addEventListener('submit', function (event) {
 
     btnEl.innerHTML = '<i class="fa-solid fa-trash" style="font-size: 1.6rem;"></i>'
 
-    list.value=''
-    
+    list.value = ''
+
+})
+
+const trashBtn = document.querySelector('.trash_button')
+trashBtn.addEventListener('click', function () {
+    console.log('hello')
 })
